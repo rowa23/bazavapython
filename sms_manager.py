@@ -26,7 +26,7 @@ class SMSManager:
             for r in rows:
                 print(f"{r[0]}. {r[1]} ➜ {r[2]} | {r[3]} | {r[4]}")
         else:
-            print("Yuborilgan smslar yoq")
+            print("Yuborilgan smslar yoq ")
 
     def close(self):
         self.cur.close()
