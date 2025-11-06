@@ -70,20 +70,32 @@ print("bajarildi")
 cur.close()
 conn.close()
 
-class Student:
-    school = "IT Academy"
+# class Student:
+#     school = "IT Academy"
+#
+#     def __init__(self, name):
+#         self.name = name
+#
+#     def show_name(self):
+#         print("O‘quvchi:", self.name)
+#
+#     @classmethod
+#     def show_school(cls):
+#         print("Maktab:", cls.school)
 
-    def __init__(self, name):
-        self.name = name
 
-    def show_name(self):
-        print("O‘quvchi:", self.name)
-
-    @classmethod
-    def show_school(cls):
-        print("Maktab:", cls.school)
-
-
+# def decorator(func):
+#     def salom():
+#         print("salom")
+#         func()
+#         print("Yusupov")
+#     return salom
+#
+# @decorator
+# def salom_ber():
+#     print("ravshan")
+#
+# salom_ber()
 
 
 
